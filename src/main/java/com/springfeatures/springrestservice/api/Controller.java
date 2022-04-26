@@ -19,9 +19,8 @@ public class Controller {
         this.travelService = travelService;
     }
 
-    @GetMapping(value = "{distance}{speed}")
-    @ResponseBody
-    public TimeToCross calculateTravelTime(@PathVariable("distance") int distance, @PathVariable("speed") int speed){
+    @GetMapping
+    public TimeToCross calculateTravelTime(@RequestParam int distance, @RequestParam int speed){
         return travelService.calculateTimeToCross(distance, speed);
     }
 }
