@@ -1,11 +1,11 @@
 package com.springfeatures.springrestservice.model;
 
-public class TravelParameters {
+public class TravelRequest {
 
     private final int distance;
     private final int speed;
 
-    public TravelParameters(int distance, int speed) {
+    public TravelRequest(int distance, int speed) {
         this.distance = distance;
         this.speed = speed;
     }
@@ -27,7 +27,7 @@ public class TravelParameters {
             return false;
         }
 
-        TravelParameters that = (TravelParameters) o;
+        TravelRequest that = (TravelRequest) o;
 
         if (distance != that.distance) {
             return false;

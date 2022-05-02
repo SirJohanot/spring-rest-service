@@ -19,7 +19,7 @@ public class TravelControllerTest {
     public void testCalculateTravelTimeShouldReturnTheRightAnswerToPositiveDistanceAndSpeed() {
         //given
         String query = "http://localhost:8080/api/travel?distance=80&speed=10";
-        String expectedAnswer = "{\"timeToCross\":8}";
+        String expectedAnswer = "{\"time\":8,\"responseNumber\":1}";
         //when
         String actualAnswer = testRestTemplate.getForObject(query, String.class);
         //then
