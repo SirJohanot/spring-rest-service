@@ -8,10 +8,20 @@ public class BulkTravelResponse {
 
     private final List<Integer> timesList;
     private final int responseNumber;
+    private final int inputParametersNumber;
+    private final int invalidInputParametersNumber;
+    private final int maximumCalculatedTime;
+    private final int minimumCalculatedTime;
+    private final int mostPopularCalculatedTime;
 
-    public BulkTravelResponse(@JsonProperty List<Integer> timesList, @JsonProperty int responseNumber) {
+    public BulkTravelResponse(@JsonProperty List<Integer> timesList, @JsonProperty int responseNumber, @JsonProperty int inputParametersNumber, @JsonProperty int invalidInputParametersNumber, @JsonProperty int maximumCalculatedTime, @JsonProperty int minimumCalculatedTime, @JsonProperty int mostPopularCalculatedTime) {
         this.timesList = timesList;
         this.responseNumber = responseNumber;
+        this.inputParametersNumber = inputParametersNumber;
+        this.invalidInputParametersNumber = invalidInputParametersNumber;
+        this.maximumCalculatedTime = maximumCalculatedTime;
+        this.minimumCalculatedTime = minimumCalculatedTime;
+        this.mostPopularCalculatedTime = mostPopularCalculatedTime;
     }
 
     public List<Integer> getTimesList() {
@@ -20,6 +30,26 @@ public class BulkTravelResponse {
 
     public int getResponseNumber() {
         return responseNumber;
+    }
+
+    public int getInputParametersNumber() {
+        return inputParametersNumber;
+    }
+
+    public int getInvalidInputParametersNumber() {
+        return invalidInputParametersNumber;
+    }
+
+    public int getMaximumCalculatedTime() {
+        return maximumCalculatedTime;
+    }
+
+    public int getMinimumCalculatedTime() {
+        return minimumCalculatedTime;
+    }
+
+    public int getMostPopularCalculatedTime() {
+        return mostPopularCalculatedTime;
     }
 
     @Override

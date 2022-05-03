@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 @Service
-public class TravelRequestCounter {
+public class TravelRequestCounterService {
 
     private final Lock requestsNumberLock = new ReentrantLock();
 
