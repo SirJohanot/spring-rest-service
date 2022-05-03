@@ -21,7 +21,7 @@ public class ErrorHandler {
         responseBodyMap.put("message", ex.getMessage());
         responseBodyMap.put("code", HttpStatus.BAD_REQUEST);
 
-        LOGGER.info(ex);
+        LOGGER.warn(ex);
 
         return new ResponseEntity<>(responseBodyMap, HttpStatus.BAD_REQUEST);
     }
@@ -32,7 +32,7 @@ public class ErrorHandler {
         responseBodyMap.put("message", ex.getMessage());
         responseBodyMap.put("code", HttpStatus.INTERNAL_SERVER_ERROR);
 
-        LOGGER.error(ex);
+        LOGGER.fatal(ex);
 
         return new ResponseEntity<>(responseBodyMap, HttpStatus.INTERNAL_SERVER_ERROR);
     }
