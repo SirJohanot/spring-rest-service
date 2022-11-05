@@ -1,4 +1,4 @@
-package com.springfeatures.springrestservice.caching;
+package com.patiun.springrestservice.caching;
 
 import java.util.HashMap;
 import java.util.Map;

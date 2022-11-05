@@ -1,12 +1,12 @@
-package com.springfeatures.springrestservice.api;
+package com.patiun.springrestservice.api;
 
-import com.springfeatures.springrestservice.exception.InvalidTravelParametersException;
-import com.springfeatures.springrestservice.model.BulkTravelResponse;
-import com.springfeatures.springrestservice.model.TravelRequest;
-import com.springfeatures.springrestservice.model.TravelResponse;
-import com.springfeatures.springrestservice.service.TravelRequestCounterService;
-import com.springfeatures.springrestservice.service.TravelService;
-import com.springfeatures.springrestservice.service.TravelStatisticsService;
+import com.patiun.springrestservice.exception.InvalidTravelParametersException;
+import com.patiun.springrestservice.model.BulkTravelResponse;
+import com.patiun.springrestservice.model.TravelRequest;
+import com.patiun.springrestservice.model.TravelResponse;
+import com.patiun.springrestservice.service.TravelRequestCounterService;
+import com.patiun.springrestservice.service.TravelService;
+import com.patiun.springrestservice.service.TravelStatisticsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;

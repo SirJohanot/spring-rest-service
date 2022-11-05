@@ -1,4 +1,4 @@
-package com.springfeatures.springrestservice.service;
+package com.patiun.springrestservice.service;
 
 import org.springframework.stereotype.Service;
 

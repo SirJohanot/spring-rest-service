@@ -1,7 +1,7 @@
-package com.springfeatures.springrestservice.service;
+package com.patiun.springrestservice.service;
 
-import com.springfeatures.springrestservice.model.BulkTravelResponse;
-import com.springfeatures.springrestservice.model.TravelRequest;
+import com.patiun.springrestservice.model.BulkTravelResponse;
+import com.patiun.springrestservice.model.TravelRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.Comparator;

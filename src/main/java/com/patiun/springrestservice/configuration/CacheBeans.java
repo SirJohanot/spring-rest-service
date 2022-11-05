@@ -1,7 +1,7 @@
-package com.springfeatures.springrestservice.configuration;
+package com.patiun.springrestservice.configuration;
 
-import com.springfeatures.springrestservice.caching.InMemoryCache;
-import com.springfeatures.springrestservice.model.TravelRequest;
+import com.patiun.springrestservice.caching.InMemoryCache;
+import com.patiun.springrestservice.model.TravelRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

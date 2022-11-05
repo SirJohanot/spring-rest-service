@@ -1,4 +1,4 @@
-package com.springfeatures.springrestservice.errorhandling;
+package com.patiun.springrestservice.errorhandling;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

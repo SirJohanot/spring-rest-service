@@ -1,4 +1,4 @@
-package com.springfeatures.springrestservice.api;
+package com.patiun.springrestservice.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

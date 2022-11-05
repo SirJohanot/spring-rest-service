@@ -1,4 +1,4 @@
-package com.springfeatures.springrestservice;
+package com.patiun.springrestservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.springfeatures.springrestservice.model;
+package com.patiun.springrestservice.model;
 
 public class TravelRequest {
 

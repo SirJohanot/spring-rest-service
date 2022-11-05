@@ -1,4 +1,4 @@
-package com.springfeatures.springrestservice.exception;
+package com.patiun.springrestservice.exception;
 
 public class InvalidTravelParametersException extends Exception {
 

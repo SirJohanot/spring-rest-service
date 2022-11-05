@@ -1,7 +1,7 @@
-package com.springfeatures.springrestservice.service;
+package com.patiun.springrestservice.service;
 
-import com.springfeatures.springrestservice.exception.InvalidTravelParametersException;
-import com.springfeatures.springrestservice.model.TravelRequest;
+import com.patiun.springrestservice.exception.InvalidTravelParametersException;
+import com.patiun.springrestservice.model.TravelRequest;
 
 import java.util.List;
 
