@@ -1,1 +1,1 @@
-# springRestService
+# spring-rest-service
